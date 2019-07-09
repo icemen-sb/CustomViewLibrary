@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonWA">
+        <attr name="image_source" format="reference" />
+        <attr name="annotation_source" format="reference" />
+        <attr name="front_color" format="color"/>
+        <attr name="back_color" format="color"/>
+        <attr name="image_size" format="dimension"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="text_bold" format="boolean"/>
+        <attr name="vertical_distance" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="AlignLayout">
+        <attr name="layout_align" format="enum">
+            <enum name="middle" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="multiline" format="boolean" />
+        <attr name="android:layout_gravity" format="enum"/>
+    </declare-styleable>
+</resources>
